@@ -20,6 +20,8 @@
 /[Aa]ssets/**/*.unity
 /[Aa]ssets/**/*.exr
 /[Aa]ssets/**/*.meta
+/[Aa]ssets/**/*.controller
+/[Aa]ssets/**/*.overrideController
 /[Aa]ssets/**/*.asset
 /[Aa]ssets/**/*.mat
 /[Aa]ssets/**/*.prefab
