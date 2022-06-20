@@ -16,8 +16,19 @@
 
 /[Aa]ssets/*
 !/[Aa]ssets/[Ss]etsuna[Tt]suyuri/
-/[Aa]ssets/[Ss]etsuna[Tt]suyuri/*
-!/[Aa]ssets/[Ss]etsuna[Tt]suyuri/**/*.cs
+
+/[Aa]ssets/**/*.unity
+/[Aa]ssets/**/*.exr
+/[Aa]ssets/**/*.meta
+/[Aa]ssets/**/*.asset
+/[Aa]ssets/**/*.mat
+/[Aa]ssets/**/*.prefab
+/[Aa]ssets/**/*.mixer
+/[Aa]ssets/**/*.csv
+/[Aa]ssets/**/*.png
+/[Aa]ssets/**/*.wav
+/[Aa]ssets/**/*.ogg
+/[Aa]ssets/**/*.mp3
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 #!/[Aa]ssets/**/*.meta
