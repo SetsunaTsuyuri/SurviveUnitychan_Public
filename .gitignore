@@ -15,6 +15,8 @@
 /[Uu]serSettings/
 
 /[Aa]ssets/*
+!/[Aa]ssets/[Ss]etsuna[Tt]suyuri/
+/[Aa]ssets/[Ss]etsuna[Tt]suyuri/*
 !/[Aa]ssets/[Ss]etsuna[Tt]suyuri/**/*.cs
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
