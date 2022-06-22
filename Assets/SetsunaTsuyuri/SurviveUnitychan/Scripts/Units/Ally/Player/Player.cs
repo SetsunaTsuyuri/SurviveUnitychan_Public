@@ -347,12 +347,12 @@ namespace SetsunaTsuyuri.SurviveUnitychan
             GameSettings settings = MasterData.GameSettings;
             int minLevel = settings.MinLevel;
             int baseValue = settings.LevelUpExperience;
-            float increase = settings.LevelUpExperienceRate;
+            float increace = settings.LevelUpExperienceRate;
 
             // 経験値計算
             for (int i = minLevel; i < level; i++)
             {
-                float multiplier = 1.0f + (i - 1) * increase;
+                float multiplier = 1.0f + (i - 1) * increace;
                 int experience = Mathf.FloorToInt(baseValue * multiplier);
                 result += experience;
             }
